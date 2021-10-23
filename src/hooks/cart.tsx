@@ -92,6 +92,7 @@ const CartProvider: React.FC = ({ children }) => {
     },
     [products],
   );
+  //
 
   const value = React.useMemo(
     () => ({ addToCart, increment, decrement, products }),

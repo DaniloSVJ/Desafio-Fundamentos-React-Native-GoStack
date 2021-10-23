@@ -46,6 +46,8 @@ const Cart: React.FC = () => {
     decrement(id);
   }
 
+  //
+
   const cartTotal = useMemo(() => {
     const total = products.reduce((accumulator, product) => {
       const productsSubTotal = product.price * product.quantity;
